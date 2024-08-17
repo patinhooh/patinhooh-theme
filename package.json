@@ -1,0 +1,21 @@
+{
+  "name": "patinhooh-theme",
+  "displayName": "Patinhooh's Theme",
+  "description": "Crafted because nothing out there matched my style. It's sharp, vibrant, and exactly what I needed.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Patinhooh's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Patinhooh's Theme-color-theme.json"
+      }
+    ]
+  }
+}
