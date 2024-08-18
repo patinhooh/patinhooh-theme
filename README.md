@@ -1,26 +1,20 @@
-# patinhooh-theme README
+## Overview
+Crafted because nothing out there matched my style. It's sharp, vibrant, and exactly what I needed. If you're looking for a theme that strikes a perfect balance between vibrancy and clarity, patinhooh-theme might be exactly what you've been searching for.
 
-## Color Palatte
-[Errors and Modifications](https://coolors.co/b00b00-de1000-00a7c9-00d900)
+**Enjoy the Theme!**
 
-[Colors](https://coolors.co/f92672-b7134f-ae81ff-176fff-1ccad8-a6e22e-ffd035-ffa500   )                         
-     
-[Monochromatic](https://coolors.co/101010-151515-202020-303030-404040-505050-757571-bbbbb2-f8f8f0)
+<br>
 
+## Color Palette
 
-## Working with Markdown
+- **Errors and Modifications:** [View Palette](https://coolors.co/b00b00-de1000-00a7c9-00d900)
+- **Main Colors:** [View Palette](https://coolors.co/f92672-b7134f-ae81ff-176fff-1ccad8-a6e22e-ffd035-ffa500)
+- **Monochromatic Tones:** [View Palette](https://coolors.co/101010-151515-202020-303030-404040-505050-757571-bbbbb2-f8f8f0)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+<br>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Additional Resources
 
-## For more information
+* [VS Code Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
+* [VS Code Languages Extensions](https://code.visualstudio.com/api/language-extensions/overview)
 
-* [Visual Studio Code's Components References](https://code.visualstudio.com/api/references/theme-color)
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
