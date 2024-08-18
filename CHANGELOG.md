@@ -7,9 +7,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/), and this 
 ## [Unreleased]
 ### Added
 - Initial creation of the patinhooh-theme.
-- Set up base color palette for the theme.
-- Started work on custom color schemes for errors, modifications, and monochromatic tones.
-- Began implementing support for various languages and syntax highlighting.
+- Defined the base color palette in the theme's JSON file.
+- Set up initial theme components and structure for future customization.
 
 ### Changed
 - Iterated on color choices to improve readability and vibrancy.
