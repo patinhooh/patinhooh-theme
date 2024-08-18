@@ -1,0 +1,24 @@
+Name          ;hex
+error red     ;b00b00
+remove red    ;de1000
+modified blue ;00a7c9
+add green     ;00d900
+
+Light wine    ;f92672
+wine          ;b7134f
+purple        ;ae81ff
+blue          ;176ff
+light blue    ;1ccad8
+green         ;a6e22e
+yellow        ;ffd035
+orange        ;ffa500
+
+black         ;101010
+carbon        ;151515
+light black   ;202020
+light carbon  ;303030
+dark gray     ;404040
+gray          ;505050
+light gray    ;757571
+dark white    ;bbbbb2
+white         ;f8f8f0

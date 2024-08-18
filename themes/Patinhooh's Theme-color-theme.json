@@ -2,6 +2,8 @@
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
     "colors": {
+        // Palettte
+        //https://coolors.co/b7134f-ae81ff-1ccad8-a6e22e-ffd035
         /* 
          * Base colors
          */
@@ -78,7 +80,7 @@
         "input.background":"#101010",
         "input.border":"#303030",
         "input.foreground":"#f8f8f0",
-        "input.placeholderForeground":"#757575",
+        "input.placeholderForeground":"#757571",
         "inputOption.activeBackground":"#00000000",
         "inputOption.activeBorder":"#b7134f",
         "inputOption.activeForeground":"#f8f8f0",
@@ -145,7 +147,7 @@
         "listFilterWidget.shadow": "#00000033",
         "list.filterMatchBackground": "#b7134f",
         "list.filterMatchBorder": "#b7134f",
-        "list.deemphasizedForeground": "#757575",
+        "list.deemphasizedForeground": "#757571",
         "list.dropBetweenBackground": "#404040",
         "tree.indentGuidesStroke": "#969695",
         "tree.inactiveIndentGuidesStroke": "#404040",
@@ -273,7 +275,7 @@
          */
         "editor.background":"#101010",
         "editor.foreground":"#f8f8f0",
-        "editorLineNumber.foreground": "#757575",
+        "editorLineNumber.foreground": "#757571",
         "editorLineNumber.activeForeground":"#f92672",
         "editorLineNumber.dimmedForeground":"#606060",
     
@@ -286,29 +288,29 @@
         // TODO didn't find it
         "editor.placeholder.foreground":"default",
   
-        "editor.selectionBackground":"#303030c3",
+        "editor.selectionBackground":"#404040d8",
         "editor.selectionForeground":"#dead",
         // https://github.com/Microsoft/vscode/issues/36490#issuecomment-1344022506
-        "editor.inactiveSelectionBackground":"#30303079",
-        "editor.selectionHighlightBackground":"#75757550",
+        "editor.inactiveSelectionBackground":"#02020279",
+        "editor.selectionHighlightBackground":"#75757150",
         "editor.selectionHighlightBorder":"#00000000",
-        "editor.wordHighlightBackground":"#75757550",
+        "editor.wordHighlightBackground":"#75757150",
         "editor.wordHighlightBorder":"#00000000",
         // Strong => during write-access
         "editor.wordHighlightStrongBackground":"#ff75bf50",
         "editor.wordHighlightStrongBorder":"#00000000",
-        "editor.wordHighlightTextBackground":"#75757550",
+        "editor.wordHighlightTextBackground":"#75757150",
         "editor.wordHighlightTextBorder":"#00000000",
 
         "editor.findMatchBackground":"#b7134f",
         "editor.findMatchForeground":"default",
-        "editor.findMatchHighlightForeground":"default",
+        "editor.findMatchHighlightForeground":"#f8f8f0d8",
         "editor.findMatchHighlightBackground":"#b7134f67",
         "editor.findRangeHighlightBackground":"#50505050",
         "editor.findMatchBorder":"#00000000",
         "editor.findMatchHighlightBorder":"#00000000",
         "editor.findRangeHighlightBorder":"default",
-        "search.resultsInfoForeground":"#757575",
+        "search.resultsInfoForeground":"#757571",
         "searchEditor.findMatchBackground":"#b7134f67",
         "searchEditor.findMatchBorder":"#00000000",
         "searchEditor.textInputBorder":"default",
@@ -317,7 +319,7 @@
         "editor.lineHighlightBackground":"#202020",
         "editor.lineHighlightBorder":"#00000000",
 
-        "editorWatermark.foreground":"#757575",
+        "editorWatermark.foreground":"#757571",
         // TODO dont know what is this
         "editorUnicodeHighlight.border":"default",
         "editorUnicodeHighlight.background":"default", 
@@ -329,8 +331,9 @@
 
         "editor.symbolHighlightBackground":"default",
         "editor.symbolHighlightBorder":"default",
-        "editorWhitespace.foreground":"#757575",
+        "editorWhitespace.foreground":"#757571",
         "editorIndentGuide.background1":"#303030",
+        "editorIndentGuide.activeBackground1": "#757571",
 
         // TODO im skipping this for now
         "editorInlayHint.background":"default",
@@ -350,73 +353,395 @@
         "editorLightBulbAutoFix.foreground":"#ffa500",
         "editorLightBulbAi.foreground":"#ffa500",
 
-        // Brackets // XXX im goint to sleep
-        "editorBracketMatch.background":"default",
-        "editorBracketMatch.border":"default",
-        "editorBracketHighlight.foreground1":"default",
-        "editorBracketHighlight.foreground2":"default",
-        "editorBracketHighlight.foreground3":"default",
-        "editorBracketHighlight.foreground4":"default",
-        "editorBracketHighlight.foreground5":"default",
-        "editorBracketHighlight.foreground6":"default",
-        "editorBracketHighlight.unexpectedBracket.foreground":"default",
+        // Brackets
+        "editorBracketMatch.background":"#00000000",
+        "editorBracketMatch.border":"#757571",
+        "editorBracketHighlight.foreground1":"#ffd035",
+        "editorBracketHighlight.foreground2":"#179fff",
+        "editorBracketHighlight.foreground3":"#ffd035",
+        "editorBracketHighlight.foreground4":"#179fff",
+        "editorBracketHighlight.foreground5":"#ffd035",
+        "editorBracketHighlight.foreground6":"#179fff",
+        "editorBracketHighlight.unexpectedBracket.foreground":"#b00b00",
+
+        "editorBracketPairGuide.activeBackground1":"default",
+        "editorBracketPairGuide.activeBackground2":"default",
+        "editorBracketPairGuide.activeBackground3":"default",
+        "editorBracketPairGuide.activeBackground4":"default",
+        "editorBracketPairGuide.activeBackground5":"default",
+        "editorBracketPairGuide.activeBackground6":"default",
+        "editorBracketPairGuide.background1":"default",
+        "editorBracketPairGuide.background2":"default",
+        "editorBracketPairGuide.background3":"default",
+        "editorBracketPairGuide.background4":"default",
+        "editorBracketPairGuide.background5":"default",
+        "editorBracketPairGuide.background6":"default",
+
+        "editor.foldBackground":"#30303050",
+        "editor.foldPlaceholderForeground":"#f8f8f0",
+
+        // Overview // TODO I DONT USE IT SO I WILL DO IT LATER
+        "editorOverviewRuler.background":"default",
+        "editorOverviewRuler.border":"default",
+        "editorOverviewRuler.findMatchForeground":"default",
+        "editorOverviewRuler.rangeHighlightForeground":"default",
+        "editorOverviewRuler.selectionHighlightForeground":"default",
+        "editorOverviewRuler.wordHighlightForeground":"default",
+        "editorOverviewRuler.wordHighlightStrongForeground":"default",
+        "editorOverviewRuler.wordHighlightTextForeground":"default",
+        "editorOverviewRuler.modifiedForeground":"default",
+        "editorOverviewRuler.addedForeground":"default",
+        "editorOverviewRuler.deletedForeground":"default",
+        "editorOverviewRuler.errorForeground":"default",
+        "editorOverviewRuler.warningForeground":"default",
+        "editorOverviewRuler.infoForeground":"default",
+        "editorOverviewRuler.bracketMatchForeground":"default",
+        "editorOverviewRuler.inlineChatInserted":"default",
+        "editorOverviewRuler.inlineChatRemoved":"default",
+
+        // Errors and Warnings
+        "editorError.foreground":"#b00b00",
+        "editorError.border":"default",
+        "editorError.background":"#b00b0050",
+        "editorWarning.foreground":"#ffa500",
+        "editorWarning.border":"default",
+        "editorWarning.background":"#ffa50020",
+        "editorInfo.foreground":"#00a7c9",
+        "editorInfo.border":"default",
+        "editorInfo.background":"#00a7c930",
+        // TODO Dont now here i can find this
+        "editorHint.foreground":"default",
+        "editorHint.border":"default",
+        "problemsErrorIcon.foreground":"#b00b00",
+        "problemsWarningIcon.foreground":"#ffa500",
+        "problemsInfoIcon.foreground":"#00a7c9",
+
+        "editorUnnecessaryCode.border": "default",
+        "editorUnnecessaryCode.opacity":"#00000088",
+
+        // Gutter Numbers
+        "editorGutter.background":"#101010",
+        "editorGutter.modifiedBackground":"#00a7c9",
+        "editorGutter.addedBackground":"default",
+        "editorGutter.deletedBackground":"#de1000",
+        // TODO didnt found it
+        "editorGutter.commentRangeForeground":"default",
+        "editorGutter.commentGlyphForeground":"default",
+        "editorGutter.commentUnresolvedGlyphForeground":"default",
+        "editorGutter.foldingControlForeground":"#757571",
+
+        // TODO Probably related to the Gutter
+        "editorCommentsWidget.resolvedBorder":"default",
+        "editorCommentsWidget.unresolvedBorder":"default",
+        "editorCommentsWidget.rangeBackground":"default",
+        "editorCommentsWidget.rangeActiveBackground":"default",
+        "editorCommentsWidget.replyInputBackground":"default",
 
         /*
          * Diff
          */
-        "diffEditor.diagonalFill": "#50505033",
-		"diffEditor.insertedLineBackground":"#00d90050",
-        "diffEditor.insertedTextBackground": "#00d90050",
-		"diffEditor.move.border": "#8b8b8b9c",
-		"diffEditor.moveActive.border": "#ffa500",
-		"diffEditor.removedLineBackground": "#d9000050",
-        "diffEditor.removedTextBackground": "#d9000050",
+        "diffEditor.insertedTextBackground":"#00d90050",
+        "diffEditor.insertedTextBorder":"default",
+        "diffEditor.removedTextBackground":"#de100050",
+        "diffEditor.removedTextBorder":"default",
+        "diffEditor.border":"default",
+        "diffEditor.diagonalFill":"#50505033",
+        "diffEditor.insertedLineBackground":"#00d90050",
+        "diffEditor.removedLineBackground":"#de100050",
+        "diffEditorGutter.insertedLineBackground":"default",
+        "diffEditorGutter.removedLineBackground":"default",
+        // TODO the rest of diff
+        "diffEditorOverview.insertedForeground":"default",
+        "diffEditorOverview.removedForeground":"default",
+        "diffEditor.unchangedRegionBackground":"default",
+        "diffEditor.unchangedRegionForeground":"default",
+        "diffEditor.unchangedRegionShadow":"default",
+        "diffEditor.unchangedCodeBackground":"default",
+        "diffEditor.move.border":"#8b8b8b9c",
+        "diffEditor.moveActive.border":"#00a7c9",
+        "multiDiffEditor.headerBackground":"default",
+        "multiDiffEditor.background":"default",
+        "multiDiffEditor.border":"default",
+
+        /*
+         * Chat Colors
+         */
+        "chat.requestBorder":"#303030",
+        // TODO didnt found it
+        "chat.requestBackground":"default",
+        "chat.slashCommandBackground":"default",
+        "chat.slashCommandForeground":"default",
+        "chat.avatarBackground":"#b7134f",
+        "chat.avatarForeground":"#101010",
+
+        // TODO not, chat bots its for pussies
+        "inlineChat.background":"default",
+        "inlineChat.foreground":"default",
+        "inlineChat.border":"default",
+        "inlineChat.shadow":"default",
+        "inlineChatInput.border":"default",
+        "inlineChatInput.focusBorder":"default",
+        "inlineChatInput.placeholderForeground":"default",
+        "inlineChatInput.background":"default",
+        "inlineChatDiff.inserted":"default",
+        "inlineChatDiff.removed":"default",
+        "interactive.activeCodeBorder":"default",
+        "interactive.inactiveCodeBorder":"default",
+
+
+        // Widgets
+        "editorWidget.foreground":"#f8f8f0",
+        "editorWidget.background":"#151515",
+        "editorWidget.border":"#00000000",
+        "editorWidget.resizeBorder":"#b7134f",
+        "editorSuggestWidget.background":"#151515",
+        "editorSuggestWidget.border":"#00000000",
+        "editorSuggestWidget.foreground":"#bbbbb2",
+        "editorSuggestWidget.focusHighlightForeground":"#f92672",
+        "editorSuggestWidget.highlightForeground":"#b7134f",
+        "editorSuggestWidget.selectedBackground":"#303030",
+        "editorSuggestWidget.selectedForeground":"#f8f8f0",
+        "editorSuggestWidget.selectedIconForeground":"#f8f8f0",
+        // TODO didnt find it
+        "editorSuggestWidgetStatus.foreground":"default",
+        "editorHoverWidget.foreground":"#f8f8f0",
+        "editorHoverWidget.background":"#202020",
+        "editorHoverWidget.border":"#303030",
+        // TODO didnt find it
+        "editorHoverWidget.highlightForeground":"default",
+        "editorHoverWidget.statusBarBackground":"default",
+        "editorGhostText.border":"default",
+        "editorGhostText.background":"default",
+        "editorGhostText.foreground":"default",
+        
+        "editorStickyScroll.background":"#101010",
+        "editorStickyScroll.border":"#00000000",
+        "editorStickyScroll.shadow":"#000000d8",
+        "editorStickyScrollHover.background":"#50505050",
+
+        "debugExceptionWidget.background":"#b00b0050",
+        "debugExceptionWidget.border":"#b00b00",
+
+
+        // TODO I will skip to the fun part  skipped to //*//
+        "editorMarkerNavigation.background":"default",
+        "editorMarkerNavigationError.background":"default",
+        "editorMarkerNavigationWarning.background":"default",
+        "editorMarkerNavigationInfo.background":"default",
+        "editorMarkerNavigationError.headerBackground":"default",
+        "editorMarkerNavigationWarning.headerBackground":"default",
+        "editorMarkerNavigationInfo.headerBackground":"default",
 
 
         /*
-         * Debug
+         * Peek View Colors
          */
-        "debugToolBar.background": "#202020",
+        "peekView.border":"default",
+        "peekViewEditor.background":"default",
+        "peekViewEditorGutter.background":"default",
+        "peekViewEditor.matchHighlightBackground":"default",
+        "peekViewEditor.matchHighlightBorder":"default",
+        "peekViewResult.background":"default",
+        "peekViewResult.fileForeground":"default",
+        "peekViewResult.lineForeground":"default",
+        "peekViewResult.matchHighlightBackground":"default",
+        "peekViewResult.selectionBackground":"default",
+        "peekViewResult.selectionForeground":"default",
+        "peekViewTitle.background":"default",
+        "peekViewTitleDescription.foreground":"default",
+        "peekViewTitleLabel.foreground":"default",
+        "peekViewEditorStickyScroll.background":"default",
+
+        /*
+         * Merge Conflicts Colors
+         */
+        "merge.currentHeaderBackground":"default",
+        "merge.currentContentBackground":"default",
+        "merge.incomingHeaderBackground":"default",
+        "merge.incomingContentBackground":"default",
+        "merge.border":"default",
+        "merge.commonContentBackground":"default",
+        "merge.commonHeaderBackground":"default",
+        "editorOverviewRuler.currentContentForeground":"default",
+        "editorOverviewRuler.incomingContentForeground":"default",
+        "editorOverviewRuler.commonContentForeground":"default",
+        "editorOverviewRuler.commentForeground":"default",
+        "editorOverviewRuler.commentUnresolvedForeground":"default",
+        "mergeEditor.change.background":"default",
+        "mergeEditor.change.word.background":"default",
+        "mergeEditor.conflict.unhandledUnfocused.border":"default",
+        "mergeEditor.conflict.unhandledFocused.border":"default",
+        "mergeEditor.conflict.handledUnfocused.border":"default",
+        "mergeEditor.conflict.handledFocused.border":"default",
+        "mergeEditor.conflict.handled.minimapOverViewRuler":"default",
+        "mergeEditor.conflict.unhandled.minimapOverViewRuler":"default",
+        "mergeEditor.conflictingLines.background":"default",
+        "mergeEditor.changeBase.background":"default",
+        "mergeEditor.changeBase.word.background":"default",
+        "mergeEditor.conflict.input1.background":"default",
+        "mergeEditor.conflict.input2.background":"default",
+
+
+        /*
+         * Panel Colors
+         */
+        "panel.background":"default",
+        "panel.border":"default",
+        "panel.dropBorder":"default",
+        "panelTitle.activeBorder":"default",
+        "panelTitle.activeForeground":"default",
+        "panelTitle.inactiveForeground":"default",
+        "panelInput.border":"default",
+        "panelSection.border":"default",
+        "panelSection.dropBackground":"default",
+        "panelSectionHeader.background":"default",
+        "panelSectionHeader.foreground":"default",
+        "panelStickyScroll.background":"default",
+        "panelStickyScroll.border":"default",
+        "panelStickyScroll.shadow":"default",
+        "panelSectionHeader.border":"default",
+        "outputView.background":"default",
+        "outputViewStickyScroll.background":"default",
+
+        /*
+         * Status Bar Colors
+         */
+        "statusBar.background":"#303030",
+        "statusBar.foreground":"default",
+        "statusBar.border":"default",
+        "statusBar.debuggingBackground":"#303030",
+        "statusBar.debuggingForeground":"default",
+        "statusBar.debuggingBorder":"default",
+        "statusBar.noFolderForeground":"default",
+        "statusBar.noFolderBackground":"#303030",
+        "statusBar.noFolderBorder":"default",
+        "statusBarItem.activeBackground":"default",
+        "statusBarItem.hoverForeground":"default",
+        "statusBarItem.hoverBackground":"default",
+        "statusBarItem.prominentForeground":"default",
+        "statusBarItem.prominentBackground":"default",
+        "statusBarItem.prominentHoverForeground":"default",
+        "statusBarItem.prominentHoverBackground":"default",
+        "statusBarItem.remoteBackground":"#b7134f",
+        "statusBarItem.remoteForeground":"default",
+        "statusBarItem.remoteHoverBackground":"default",
+        "statusBarItem.remoteHoverForeground":"default",
+        "statusBarItem.errorBackground":"default",
+        "statusBarItem.errorForeground":"default",
+        "statusBarItem.errorHoverBackground":"default",
+        "statusBarItem.errorHoverForeground":"default",
+        "statusBarItem.warningBackground":"default",
+        "statusBarItem.warningForeground":"default",
+        "statusBarItem.warningHoverBackground":"default",
+        "statusBarItem.warningHoverForeground":"default",
+        "statusBarItem.compactHoverBackground":"default",
+        "statusBarItem.focusBorder":"default",
+        "statusBar.focusBorder":"default",
+        "statusBarItem.offlineBackground":"default",
+        "statusBarItem.offlineForeground":"default",
+        "statusBarItem.offlineHoverForeground":"default",
+        "statusBarItem.offlineHoverBackground":"default",
+
+
+        /*
+         * Title Bar Colors
+         */
+        "titleBar.activeBackground":"default",
+        "titleBar.activeForeground":"default",
+        "titleBar.inactiveBackground":"default",
+        "titleBar.inactiveForeground":"default",
+        "titleBar.border":"default",
+
+
+        /** Menu Bar Colors*/
+        "menubar.selectionForeground":"default",
+        "menubar.selectionBackground":"default",
+        "menubar.selectionBorder":"default",
+        "menu.foreground":"default",
+        "menu.background":"default",
+        "menu.selectionForeground":"default",
+        "menu.selectionBackground":"default",
+        "menu.selectionBorder":"default",
+        "menu.separatorBackground":"default",
+        "menu.border":"default",
+
+
+        /** Command Center Colors*/
+        "commandCenter.foreground":"default",
+        "commandCenter.activeForeground":"default",
+        "commandCenter.background":"default",
+        "commandCenter.activeBackground":"default",
+        "commandCenter.border":"default",
+        "commandCenter.inactiveForeground":"default",
+        "commandCenter.inactiveBorder":"default",
+        "commandCenter.activeBorder":"default",
+        "commandCenter.debuggingBackground":"default",
+
+
+        /** Notification Colors*/
+        "notificationCenter.border":"default",
+        "notificationCenterHeader.foreground":"default",
+        "notificationCenterHeader.background":"default",
+        "notificationToast.border":"default",
+        "notifications.foreground":"default",
+        "notifications.background":"default",
+        "notifications.border":"default",
+        "notificationLink.foreground":"default",
+        "notificationsErrorIcon.foreground":"default",
+        "notificationsWarningIcon.foreground":"default",
+        "notificationsInfoIcon.foreground":"default",
+
+
+        /** Banner Colors*/
+        "banner.background":"default",
+        "banner.foreground":"default",
+        "banner.iconForeground":"default",
+
+
+        /** Extensions Colors*/
+        "extensionButton.prominentForeground":"default",
+        "extensionButton.prominentBackground":"default",
+        "extensionButton.prominentHoverBackground":"default",
+        "extensionButton.background":"default",
+        "extensionButton.foreground":"default",
+        "extensionButton.hoverBackground":"default",
+        "extensionButton.separator":"default",
+        "extensionBadge.remoteBackground":"default",
+        "extensionBadge.remoteForeground":"default",
+        "extensionIcon.starForeground":"default",
+        "extensionIcon.verifiedForeground":"default",
+        "extensionIcon.preReleaseForeground":"default",
+        "extensionIcon.sponsorForeground":"default",
+
+
+        /** Quick Picker Colors*/
+        "pickerGroup.border":"default",
+        "pickerGroup.foreground":"default",
+        "quickInput.background":"default",
+        "quickInput.foreground":"default",
+        "quickInputList.focusBackground":"default",
+        "quickInputList.focusForeground":"default",
+        "quickInputList.focusIconForeground":"default",
+        "quickInputTitle.background":"default",
+
+
+        /** Keybinding Label Colors*/
+        "keybindingLabel.background":"default",
+        "keybindingLabel.foreground":"default",
+        "keybindingLabel.border":"default",
+        "keybindingLabel.bottomBorder":"default",
+
+
+        /** keyboard Shortcut Table Colors*/
+        "keybindingTable.headerBackground":"default",
+        "keybindingTable.rowsBackground":"default",
 
 
 
-
-
-
-        
-        // done
-        
-        "editorHoverWidget.background": "#414339",
-        "editorHoverWidget.border": "#404040",
-        "editorIndentGuide.activeBackground1": "#767771",
-     
-        "editorSuggestWidget.background": "#101010",
-        "editorSuggestWidget.border": "#404040",
-        "editorWidget.background": "#202020",
-        
-     
-        "menu.background": "#151515",
-        "menu.foreground": "#cccccc",
-        "panel.border": "#414339",
-        "panelTitle.activeBorder": "#404040",
-        "panelTitle.activeForeground": "#f8f8f0",
-        "panelTitle.inactiveForeground": "#404040",
-        "peekView.border": "#404040",
-        "peekViewEditor.background": "#101010",
-        "peekViewEditor.matchHighlightBackground": "#404040",
-        "peekViewResult.background": "#202020",
-        "peekViewResult.matchHighlightBackground": "#404040",
-        "peekViewResult.selectionBackground": "#414339",
-        "peekViewTitle.background": "#202020",
-        "pickerGroup.foreground": "#404040",
-        "ports.iconRunningProcessForeground": "#ccccc7",
-        "quickInputList.focusBackground": "#414339",
-        "settings.focusedRowBackground": "#4143395a",
-        "statusBar.background": "#414339",
-        "statusBar.debuggingBackground": "#404040",
-        "statusBar.noFolderBackground": "#414339",
-        "statusBarItem.remoteBackground": "#ac6218",
-        
+        /** Integrated Terminal Colors*/
+        "terminal.background":"default",
+        "terminal.border":"default",
+        "terminal.foreground":"default",
         "terminal.ansiBlack": "#333333",
         "terminal.ansiBlue": "#6a7ec8",
         "terminal.ansiBrightBlack": "#666666",
@@ -433,7 +758,264 @@
         "terminal.ansiRed": "#c4265e",
         "terminal.ansiWhite": "#e3e3dd",
         "terminal.ansiYellow": "#b3b42b",
-        "titleBar.activeBackground": "#202020"
+        "terminal.selectionBackground":"default",
+        "terminal.selectionForeground":"default",
+        "terminal.inactiveSelectionBackground":"default",
+        "terminal.findMatchBackground":"default",
+        "terminal.findMatchBorder":"default",
+        "terminal.findMatchHighlightBackground":"default",
+        "terminal.findMatchHighlightBorder":"default",
+        "terminal.hoverHighlightBackground":"default",
+        "terminalCursor.background":"default",
+        "terminalCursor.foreground":"default",
+        "terminal.dropBackground":"default",
+        "terminal.tab.activeBorder":"default",
+        "terminalCommandDecoration.defaultBackground":"default",
+        "terminalCommandDecoration.successBackground":"default",
+        "terminalCommandDecoration.errorBackground":"default",
+        "terminalOverviewRuler.cursorForeground":"default",
+        "terminalOverviewRuler.findMatchForeground":"default",
+        "terminalStickyScroll.background":"default",
+        "terminalStickyScroll.border":"default",
+        "terminalStickyScrollHover.background":"default",
+        "terminal.initialHintForeground":"default",
+
+        /** Debug Colors*/
+        "debugToolBar.background": "#202020",
+        "debugToolBar.border":"default",
+        "editor.stackFrameHighlightBackground":"default",
+        "editor.focusedStackFrameHighlightBackground":"default",
+        "editor.inlineValuesForeground":"default",
+        "editor.inlineValuesBackground":"default",
+        "debugView.exceptionLabelForeground":"default",
+        "debugView.exceptionLabelBackground":"default",
+        "debugView.stateLabelForeground":"default",
+        "debugView.stateLabelBackground":"default",
+        "debugView.valueChangedHighlight":"default",
+        "debugTokenExpression.name":"default",
+        "debugTokenExpression.value":"default",
+        "debugTokenExpression.string":"default",
+        "debugTokenExpression.boolean":"default",
+        "debugTokenExpression.number":"default",
+        "debugTokenExpression.error":"default",
+        "debugTokenExpression.type":"default",
+        
+        
+        /** Debug Colors*/
+        "testing.runAction":"default",
+        "testing.iconErrored":"default",
+        "testing.iconFailed":"default",
+        "testing.iconPassed":"default",
+        "testing.iconQueued":"default",
+        "testing.iconUnset":"default",
+        "testing.iconSkipped":"default",
+        "testing.iconErrored.retired":"default",
+        "testing.iconFailed.retired":"default",
+        "testing.iconPassed.retired":"default",
+        "testing.iconQueued.retired":"default",
+        "testing.iconUnset.retired":"default",
+        "testing.iconSkipped.retired":"default",
+        "testing.peekBorder":"default",
+        "testing.peekHeaderBackground":"default",
+        "testing.message.error.decorationForeground":"default",
+        "testing.message.error.lineBackground":"default",
+        "testing.message.info.decorationForeground":"default",
+        "testing.message.info.lineBackground":"default",
+        "testing.messagePeekBorder":"default",
+        "testing.messagePeekHeaderBackground":"default",
+        "testing.coveredBackground":"default",
+        "testing.coveredBorder":"default",
+        "testing.coveredGutterBackground":"default",
+        "testing.uncoveredBranchBackground":"default",
+        "testing.uncoveredBackground":"default",
+        "testing.uncoveredBorder":"default",
+        "testing.uncoveredGutterBackground":"default",
+        "testing.coverCountBadgeBackground":"default",
+        "testing.coverCountBadgeForeground":"default",
+
+
+        /** Welcome Page Colors*/
+        "welcomePage.background":"default",
+        "welcomePage.progress.foreground":"default",
+        "welcomePage.progress.background":"default",
+        "welcomePage.tileBackground":"default",
+        "welcomePage.tileHoverBackground":"default",
+        "welcomePage.tileBorder":"default",
+        "walkThrough.embeddedEditorBackground":"default",
+        "walkthrough.stepTitle.foreground":"default",
+
+        /** Git Colors*/
+        "gitDecoration.addedResourceForeground":"default",
+        "gitDecoration.modifiedResourceForeground":"default",
+        "gitDecoration.deletedResourceForeground":"default",
+        "gitDecoration.renamedResourceForeground":"default",
+        "gitDecoration.stageModifiedResourceForeground":"default",
+        "gitDecoration.stageDeletedResourceForeground":"default",
+        "gitDecoration.untrackedResourceForeground":"default",
+        "gitDecoration.ignoredResourceForeground":"default",
+        "gitDecoration.conflictingResourceForeground":"default",
+        "gitDecoration.submoduleResourceForeground":"default",
+
+        /** Setings Editor Colors*/
+        "settings.headerForeground":"default",
+        "settings.modifiedItemIndicator":"default",
+        "settings.dropdownBackground":"default",
+        "settings.dropdownForeground":"default",
+        "settings.dropdownBorder":"default",
+        "settings.dropdownListBorder":"default",
+        "settings.checkboxBackground":"default",
+        "settings.checkboxForeground":"default",
+        "settings.checkboxBorder":"default",
+        "settings.rowHoverBackground":"default",
+        "settings.textInputBackground":"default",
+        "settings.textInputForeground":"default",
+        "settings.textInputBorder":"default",
+        "settings.numberInputBackground":"default",
+        "settings.numberInputForeground":"default",
+        "settings.numberInputBorder":"default",
+        "settings.focusedRowBackground":"default",
+        "settings.focusedRowBorder":"default",
+        "settings.headerBorder":"default",
+        "settings.sashBorder":"default",
+        "settings.settingsHeaderHoverForeground":"default",
+
+
+        /** Breadcrumbs Colors*/
+        "breadcrumb.foreground":"default",
+        "breadcrumb.background":"default",
+        "breadcrumb.focusForeground":"default",
+        "breadcrumb.activeSelectionForeground":"default",
+        "breadcrumbPicker.background":"default",
+
+        
+        /** Snippets Colors*/
+        "editor.snippetTabstopHighlightBackground":"default",
+        "editor.snippetTabstopHighlightBorder":"default",
+        "editor.snippetFinalTabstopHighlightBackground":"default",
+        "editor.snippetFinalTabstopHighlightBorder":"default",
+
+
+        /** Symbol Icons Colors*/
+        "symbolIcon.arrayForeground":"default",
+        "symbolIcon.booleanForeground":"default",
+        "symbolIcon.classForeground":"default",
+        "symbolIcon.colorForeground":"default",
+        "symbolIcon.constantForeground":"default",
+        "symbolIcon.constructorForeground":"default",
+        "symbolIcon.enumeratorForeground":"default",
+        "symbolIcon.enumeratorMemberForeground":"default",
+        "symbolIcon.eventForeground":"default",
+        "symbolIcon.fieldForeground":"default",
+        "symbolIcon.fileForeground":"default",
+        "symbolIcon.folderForeground":"default",
+        "symbolIcon.functionForeground":"default",
+        "symbolIcon.interfaceForeground":"default",
+        "symbolIcon.keyForeground":"default",
+        "symbolIcon.keywordForeground":"default",
+        "symbolIcon.methodForeground":"default",
+        "symbolIcon.moduleForeground":"default",
+        "symbolIcon.namespaceForeground":"default",
+        "symbolIcon.nullForeground":"default",
+        "symbolIcon.numberForeground":"default",
+        "symbolIcon.objectForeground":"default",
+        "symbolIcon.operatorForeground":"default",
+        "symbolIcon.packageForeground":"default",
+        "symbolIcon.propertyForeground":"default",
+        "symbolIcon.referenceForeground":"default",
+        "symbolIcon.snippetForeground":"default",
+        "symbolIcon.stringForeground":"default",
+        "symbolIcon.structForeground":"default",
+        "symbolIcon.textForeground":"default",
+        "symbolIcon.typeParameterForeground":"default",
+        "symbolIcon.unitForeground":"default",
+        "symbolIcon.variableForeground":"default",
+
+
+        /** Debug Icons Colors*/
+        "debugIcon.breakpointForeground":"default",
+        "debugIcon.breakpointDisabledForeground":"default",
+        "debugIcon.breakpointUnverifiedForeground":"default",
+        "debugIcon.breakpointCurrentStackframeForeground":"default",
+        "debugIcon.breakpointStackframeForeground":"default",
+        "debugIcon.startForeground":"default",
+        "debugIcon.pauseForeground":"default",
+        "debugIcon.stopForeground":"default",
+        "debugIcon.disconnectForeground":"default",
+        "debugIcon.restartForeground":"default",
+        "debugIcon.stepOverForeground":"default",
+        "debugIcon.stepIntoForeground":"default",
+        "debugIcon.stepOutForeground":"default",
+        "debugIcon.continueForeground":"default",
+        "debugIcon.stepBackForeground":"default",
+        "debugConsole.infoForeground":"default",
+        "debugConsole.warningForeground":"default",
+        "debugConsole.errorForeground":"default",
+        "debugConsole.sourceForeground":"default",
+        "debugConsoleInputIcon.foreground":"default",
+
+
+        /** Notebook Colors*/
+        "notebook.editorBackground":"default",
+        "notebook.cellBorderColor":"default",
+        "notebook.cellHoverBackground":"default",
+        "notebook.cellInsertionIndicator":"default",
+        "notebook.cellStatusBarItemHoverBackground":"default",
+        "notebook.cellToolbarSeparator":"default",
+        "notebook.cellEditorBackground":"default",
+        "notebook.focusedCellBackground":"default",
+        "notebook.focusedCellBorder":"default",
+        "notebook.focusedEditorBorder":"default",
+        "notebook.inactiveFocusedCellBorder":"default",
+        "notebook.inactiveSelectedCellBorder":"default",
+        "notebook.outputContainerBackgroundColor":"default",
+        "notebook.outputContainerBorderColor":"default",
+        "notebook.selectedCellBackground":"default",
+        "notebook.selectedCellBorder":"default",
+        "notebook.symbolHighlightBackground":"default",
+        "notebookScrollbarSlider.activeBackground":"default",
+        "notebookScrollbarSlider.background":"default",
+        "notebookScrollbarSlider.hoverBackground":"default",
+        "notebookStatusErrorIcon.foreground":"default",
+        "notebookStatusRunningIcon.foreground":"default",
+        "notebookStatusSuccessIcon.foreground":"default",
+        "notebookEditorOverviewRuler.runningCellForeground":"default",
+
+
+        /** Chart Colors*/
+        "charts.foreground":"default",
+        "charts.lines":"default",
+        "charts.red":"default",
+        "charts.blue":"default",
+        "charts.yellow":"default",
+        "charts.orange":"default",
+        "charts.green":"default",
+        "charts.purple":"default",
+
+
+        /** Ports Colors*/
+        "ports.iconRunningProcessForeground":"default",
+        
+
+        /** Comments View Colors*/
+        "commentsView.resolvedIcon":"default",
+        "commentsView.unresolvedIcon":"default",
+
+
+        /** Action Bar Colors*/
+        "actionBar.toggledBackground":"default",
+
+
+        /** Simple Find Widget*/
+        "simpleFindWidget.sashBorder":"default",
+
+
+        /** SCM*/
+        "scm.historyItemAdditionsForeground":"default",
+        "scm.historyItemDeletionsForeground":"default",
+        "scm.historyItemStatisticsBorder":"default",
+        "scm.historyItemSelectedStatisticsBorder":"default",
+        
+        //*// It's not that funny, I'm going to take a break.
     },
     "tokenColors": [
         {
