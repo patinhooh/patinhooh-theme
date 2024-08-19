@@ -15,6 +15,7 @@ Crafted because nothing out there matched my style. It's sharp, vibrant, and exa
 
 ## Additional Resources
 
-* [VS Code Color Theme](https://code.visualstudio.com/api/references/theme-color)
+* [VS Code Get Started Themes](https://code.visualstudio.com/docs/getstarted/themes)
+* [VS Code Theme Color](https://code.visualstudio.com/api/references/theme-color)
 * [VS Code UX Guidelines](https://code.visualstudio.com/api/ux-guidelines/overview)
 
