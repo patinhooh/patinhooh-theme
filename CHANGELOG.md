@@ -11,10 +11,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/), and this 
 - Set up initial theme components and structure for future customization.
 
 ### Changed
-- Iterated on color choices to improve readability and vibrancy.
+- Nothing.
 
 ### Fixed
-- Placeholder for any fixes during development.
+- Nothing.
 
 ### Known Issues
-- Placeholder for listing any known issues that need addressing before release.
+- None.

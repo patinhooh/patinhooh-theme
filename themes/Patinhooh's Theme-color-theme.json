@@ -42,36 +42,36 @@
         /*
          * Action Colors
          */
-        "toolbar.hoverBackground": "#505050",
-        "toolbar.hoverOutline": "#00000000",
-        "toolbar.activeBackground": "#505050",
+        "toolbar.hoverBackground": "#404040",
+        "toolbar.hoverOutline": "#0000",
+        "toolbar.activeBackground": "#404040",
 
         /* 
          * Button Control
          */
-        "button.background": "#303030",
+        "button.background": "#202020",
         "button.foreground": "#f8f8f0",
-        "button.border": "#00000000",
-        "button.separator": "#00000000",
-        "button.hoverBackground": "#505050",
-        "button.secondaryBackground": "#404040",
+        "button.border": "#303030",
+        "button.separator": "#303030",
+        "button.hoverBackground": "#404040",
+        "button.secondaryBackground": "#202020",
         "button.secondaryForeground": "#f8f8f0",
-        "button.secondaryHoverBackground": "#505050",
+        "button.secondaryHoverBackground": "#404040",
         
-        "checkbox.background": "#101010",
+        "checkbox.background": "#202020",
         "checkbox.foreground": "#f8f8f0",
-        "checkbox.border": "#f8f8f0",
-        "checkbox.selectBackground": "#404040",
-        "checkbox.selectBorder": "#f8f8f0",
+        "checkbox.border": "#303030",
+        "checkbox.selectBackground": "#202020",
+        "checkbox.selectBorder": "#b7134f",
     
 
         /* 
          * Dropdown control
          */
-        "dropdown.background":"#101010",
-        "dropdown.listBackground":"#101010",
+        "dropdown.background":"#202020",
+        "dropdown.listBackground":"#202020",
         "dropdown.foreground":"#f8f8f0",
-        "dropdown.border":"#f8f8f0",
+        "dropdown.border":"#303030",
 
 
         /* 
@@ -81,18 +81,19 @@
         "input.border":"#303030",
         "input.foreground":"#f8f8f0",
         "input.placeholderForeground":"#757571",
-        "inputOption.activeBackground":"#00000000",
-        "inputOption.activeBorder":"#b7134f",
+        "inputOption.activeBackground":"#404040",
+        "inputOption.activeBorder":"#757571",
         "inputOption.activeForeground":"#f8f8f0",
-        "inputOption.hoverBackground":"#b7134f",
-        "inputValidation.errorBackground":"#980000",
+        "inputOption.hoverBackground":"#404040",
+        "inputValidation.errorBackground":"#b00b0050",
         "inputValidation.errorForeground":"#f8f8f0",
-        "inputValidation.errorBorder":"#980000",
+        "inputValidation.errorBorder":"#b00b00",
         // test using ctrl+alt+f in Explorer
-        "inputValidation.warningBackground": "#bc7a00",
+        "inputValidation.warningBackground": "#ffa50050",
         "inputValidation.warningForeground": "#f8f8f0",
-		"inputValidation.warningBorder": "#bc7a00",
-        "inputValidation.infoBackground": "#00a7c9",
+		"inputValidation.warningBorder": "#ffa500",
+        // try to peek to a something that u can peek
+        "inputValidation.infoBackground": "#00a7c950",
         "inputValidation.infoForeground": "#f8f8f0",
         "inputValidation.infoBorder": "#00a7c9",
 
@@ -100,10 +101,10 @@
         /* 
          * Scrollbar control
          */
-        "scrollbar.shadow":"#000000",
-        "scrollbarSlider.activeBackground":"#f8f8f066",
-        "scrollbarSlider.background":"#79797966",
-        "scrollbarSlider.hoverBackground":"#9c9c9c66",
+        "scrollbar.shadow":"#000000ff",
+        "scrollbarSlider.activeBackground":"#505050d8",
+        "scrollbarSlider.background":"#40404050",
+        "scrollbarSlider.hoverBackground":"#40404088",
 
 
         /* 
@@ -115,6 +116,7 @@
         /*
          * Progress Bar
          */
+         //TODO didnt found it
         "progressBar.background":"#404040",
         
 
@@ -124,35 +126,37 @@
         "list.activeSelectionBackground": "#404040",
         "list.activeSelectionForeground": "#f8f8f0",
         "list.activeSelectionIconForeground": "#f8f8f0",
-        "list.dropBackground": "#404040",
-        "list.focusBackground": "#404040",
+        "list.dropBackground": "#202020",
+        "list.focusBackground": "#0000",
         "list.focusForeground": "#f8f8f0",
         "list.focusHighlightForeground": "#f8f8f0",
-        "list.focusOutline": "#404040",
-        "list.focusAndSelectionOutline": "#404040",
+        "list.focusOutline": "#505050",
+        "list.focusAndSelectionOutline": "#505050",
         "list.highlightForeground": "#f8f8f0",
         "list.hoverBackground": "#404040",
         "list.hoverForeground": "#f8f8f0",
-        "list.inactiveSelectionBackground": "#404040",
+        "list.inactiveSelectionBackground": "#303030",
         "list.inactiveSelectionForeground": "#f8f8f0",
         "list.inactiveSelectionIconForeground": "#f8f8f0",
-        "list.inactiveFocusBackground": "#505050",
-        "list.inactiveFocusOutline": "#f8f8f033",
-        "list.invalidItemForeground": "#980000",
-        "list.errorForeground": "#980000",
+        "list.inactiveFocusBackground": "#404040",
+        "list.inactiveFocusOutline": "#505050",
+        "list.invalidItemForeground": "#b00b00",
+        "list.errorForeground": "#b00b00",
         "list.warningForeground": "#bc7a00",
-        "listFilterWidget.background": "#404040",
-        "listFilterWidget.outline": "#f8f8f033",
-        "listFilterWidget.noMatchesOutline": "#980000",
-        "listFilterWidget.shadow": "#00000033",
-        "list.filterMatchBackground": "#b7134f",
-        "list.filterMatchBorder": "#b7134f",
+        // Filter Widget F3 in explorer
+        "listFilterWidget.background": "#151515",
+        "listFilterWidget.outline": "#303030",
+        "listFilterWidget.noMatchesOutline": "#b00b00",
+        "listFilterWidget.shadow": "#000000d8",
+        "list.filterMatchBackground": "#b7134f67",
+        "list.filterMatchBorder": "#0000",
         "list.deemphasizedForeground": "#757571",
         "list.dropBetweenBackground": "#404040",
-        "tree.indentGuidesStroke": "#969695",
-        "tree.inactiveIndentGuidesStroke": "#404040",
-        "tree.tableColumnsBorder": "#404040",
-        "tree.tableOddRowsBackground": "#202020",
+        "tree.indentGuidesStroke": "#757571",
+        "tree.inactiveIndentGuidesStroke": "#303030",
+        //TODO didnt found it
+        "tree.tableColumnsBorder": "default",
+        "tree.tableOddRowsBackground": "default",
 
 
         /* 
@@ -167,7 +171,7 @@
         "activityBarBadge.foreground":"#f8f8f0",
         "activityBar.activeBorder":"#b7134f",
         "activityBar.activeBackground":"#151515",
-        "activityBar.activeFocusBorder":"#00000000",
+        "activityBar.activeFocusBorder":"#0000",
         "activityBarTop.background":"#101010",
         "activityBarTop.dropBorder":"#b7134f",
         "activityBarTop.foreground":"#b7134f",
@@ -177,12 +181,12 @@
 
 
         /* 
-         * Activity Bar
+         * Profiles
          */
         // TODO didn't find this
         "profileBadge.background":"#f00",
         "profileBadge.foreground":"#f00",
-        "profiles.sashBorder":"#f00",
+        "profiles.sashBorder":"#0ff",
 
 
         /* 
@@ -195,18 +199,19 @@
         "sideBarTitle.foreground":"#f8f8f0",
         "sideBarSectionHeader.background":"#151515",
         "sideBarSectionHeader.foreground":"#f8f8f0",
-        "sideBarSectionHeader.border":"#00000000",
-        "sideBarActivityBarTop.border":"#00000000",
+        "sideBarSectionHeader.border":"#0000",
+        "sideBarActivityBarTop.border":"#0000",
         "sideBarTitle.background":"#151515",
         // TODO didn't find it
         "sideBarStickyScroll.background":"default",//#151515
-        "sideBarStickyScroll.border":"default", //#00000000
+        "sideBarStickyScroll.border":"default", //#0000
         "sideBarStickyScroll.shadow":"default",
 
 
         /* 
         * Minimap and Minimap Gutter
         */
+        // TODO I dont use it, will change it later
         "minimap.errorHighlight": "default",
         "minimap.findMatchHighlight": "default",
         "minimap.foregroundOpacity": "default",
@@ -225,17 +230,18 @@
         /* 
         * Editor Groups andTabs
         */
+        //*// Reviewing stoped here
         "editorGroup.border":"#303030",
-        "editorGroup.dropBackground":"#f8f8f033",
-        "editorGroupHeader.noTabsBackground":"#101010",
-        "editorGroupHeader.tabsBackground":"#151515",
+        "editorGroup.dropBackground":"#50505033",
+        "editorGroupHeader.noTabsBackground":"#202020",
+        "editorGroupHeader.tabsBackground":"#202020",
         "editorGroupHeader.tabsBorder":"#101010",
         "editorGroupHeader.border":"#303030",
         "editorGroup.emptyBackground":"#101010",
         "editorGroup.focusedEmptyBorder":"#b7134f",
         "editorGroup.dropIntoPromptForeground":"#f8f8f0",
         "editorGroup.dropIntoPromptBackground":"#101010",
-        "editorGroup.dropIntoPromptBorder":"#00000000",
+        "editorGroup.dropIntoPromptBorder":"#0000",
         "tab.activeBackground":"#101010",
         "tab.unfocusedActiveBackground":"#101010",
         "tab.activeForeground":"#f8f8f0",
@@ -249,8 +255,8 @@
         "tab.activeBorderTop":"#f92672",
         "tab.unfocusedActiveBorderTop":"default",
         "tab.lastPinnedBorder":"#303030",
-        "tab.inactiveBackground":"#151515",
-        "tab.unfocusedInactiveBackground":"#151515",
+        "tab.inactiveBackground":"#202020",
+        "tab.unfocusedInactiveBackground":"#202020",
         "tab.inactiveForeground":"#f8f8f095",
         "tab.unfocusedActiveForeground":"#f8f8f0c1",
         "tab.unfocusedInactiveForeground":"#f8f8f06e",
@@ -258,8 +264,8 @@
         "tab.unfocusedHoverBackground":"#202020",
         "tab.hoverForeground":"#f8f8f0",
         "tab.unfocusedHoverForeground":"#f8f8f0",
-        "tab.hoverBorder":"#00000000",
-        "tab.unfocusedHoverBorder":"#00000000",
+        "tab.hoverBorder":"#0000",
+        "tab.unfocusedHoverBorder":"#0000",
         // TODO didn't find it
         "tab.activeModifiedBorder":"default",
         "tab.inactiveModifiedBorder":"default",
@@ -279,12 +285,12 @@
         "editorLineNumber.activeForeground":"#f92672",
         "editorLineNumber.dimmedForeground":"#606060",
     
-        "editorCursor.background":"#00000000",
+        "editorCursor.background":"#0000",
         "editorCursor.foreground":"#f8f8f070",
         "editorMultiCursor.primary.foreground":"#f8f8f070",
-        "editorMultiCursor.primary.background":"#00000000",
+        "editorMultiCursor.primary.background":"#0000",
         "editorMultiCursor.secondary.foreground":"#f8f8f070",
-        "editorMultiCursor.secondary.background":"#00000000",
+        "editorMultiCursor.secondary.background":"#0000",
         // TODO didn't find it
         "editor.placeholder.foreground":"default",
   
@@ -293,31 +299,31 @@
         // https://github.com/Microsoft/vscode/issues/36490#issuecomment-1344022506
         "editor.inactiveSelectionBackground":"#02020279",
         "editor.selectionHighlightBackground":"#75757150",
-        "editor.selectionHighlightBorder":"#00000000",
+        "editor.selectionHighlightBorder":"#0000",
         "editor.wordHighlightBackground":"#75757150",
-        "editor.wordHighlightBorder":"#00000000",
+        "editor.wordHighlightBorder":"#0000",
         // Strong => during write-access
         "editor.wordHighlightStrongBackground":"#ff75bf50",
-        "editor.wordHighlightStrongBorder":"#00000000",
+        "editor.wordHighlightStrongBorder":"#0000",
         "editor.wordHighlightTextBackground":"#75757150",
-        "editor.wordHighlightTextBorder":"#00000000",
+        "editor.wordHighlightTextBorder":"#0000",
 
         "editor.findMatchBackground":"#b7134f",
         "editor.findMatchForeground":"default",
         "editor.findMatchHighlightForeground":"#f8f8f0d8",
         "editor.findMatchHighlightBackground":"#b7134f67",
         "editor.findRangeHighlightBackground":"#50505050",
-        "editor.findMatchBorder":"#00000000",
-        "editor.findMatchHighlightBorder":"#00000000",
+        "editor.findMatchBorder":"#0000",
+        "editor.findMatchHighlightBorder":"#0000",
         "editor.findRangeHighlightBorder":"default",
         "search.resultsInfoForeground":"#757571",
         "searchEditor.findMatchBackground":"#b7134f67",
-        "searchEditor.findMatchBorder":"#00000000",
+        "searchEditor.findMatchBorder":"#0000",
         "searchEditor.textInputBorder":"default",
         "editor.hoverHighlightBackground":"#303030d8",
         
         "editor.lineHighlightBackground":"#202020",
-        "editor.lineHighlightBorder":"#00000000",
+        "editor.lineHighlightBorder":"#0000",
 
         "editorWatermark.foreground":"#757571",
         // TODO dont know what is this
@@ -354,7 +360,7 @@
         "editorLightBulbAi.foreground":"#ffa500",
 
         // Brackets
-        "editorBracketMatch.background":"#00000000",
+        "editorBracketMatch.background":"#0000",
         "editorBracketMatch.border":"#757571",
         "editorBracketHighlight.foreground1":"#ffd035",
         "editorBracketHighlight.foreground2":"#179fff",
@@ -471,7 +477,7 @@
         "chat.requestBackground":"default",
         "chat.slashCommandBackground":"default",
         "chat.slashCommandForeground":"default",
-        "chat.avatarBackground":"#b7134f",
+        "chat.avatarBackground":"#f8f8f0",
         "chat.avatarForeground":"#101010",
 
         // TODO not, chat bots its for pussies
@@ -492,10 +498,10 @@
         // Widgets
         "editorWidget.foreground":"#f8f8f0",
         "editorWidget.background":"#151515",
-        "editorWidget.border":"#00000000",
+        "editorWidget.border":"#0000",
         "editorWidget.resizeBorder":"#b7134f",
         "editorSuggestWidget.background":"#151515",
-        "editorSuggestWidget.border":"#00000000",
+        "editorSuggestWidget.border":"#0000",
         "editorSuggestWidget.foreground":"#bbbbb2",
         "editorSuggestWidget.focusHighlightForeground":"#f92672",
         "editorSuggestWidget.highlightForeground":"#b7134f",
@@ -515,7 +521,7 @@
         "editorGhostText.foreground":"default",
         
         "editorStickyScroll.background":"#101010",
-        "editorStickyScroll.border":"#00000000",
+        "editorStickyScroll.border":"#0000",
         "editorStickyScroll.shadow":"#000000d8",
         "editorStickyScrollHover.background":"#50505050",
 
@@ -523,7 +529,7 @@
         "debugExceptionWidget.border":"#b00b00",
 
 
-        // TODO I will skip to the fun part  skipped to //*//
+        // TODO all under
         "editorMarkerNavigation.background":"default",
         "editorMarkerNavigationError.background":"default",
         "editorMarkerNavigationWarning.background":"default",
@@ -606,10 +612,10 @@
         /*
          * Status Bar Colors
          */
-        "statusBar.background":"#303030",
+        "statusBar.background":"#151515",
         "statusBar.foreground":"default",
         "statusBar.border":"default",
-        "statusBar.debuggingBackground":"#303030",
+        "statusBar.debuggingBackground":"#151515",
         "statusBar.debuggingForeground":"default",
         "statusBar.debuggingBorder":"default",
         "statusBar.noFolderForeground":"default",
@@ -646,16 +652,16 @@
         /*
          * Title Bar Colors
          */
-        "titleBar.activeBackground":"default",
-        "titleBar.activeForeground":"default",
-        "titleBar.inactiveBackground":"default",
-        "titleBar.inactiveForeground":"default",
-        "titleBar.border":"default",
+        "titleBar.activeBackground":"#151515",
+        "titleBar.activeForeground":"#f8f8f0",
+        "titleBar.inactiveBackground":"#151515",
+        "titleBar.inactiveForeground":"#bbbbb2",
+        "titleBar.border":"#303030",
 
 
         /** Menu Bar Colors*/
-        "menubar.selectionForeground":"default",
-        "menubar.selectionBackground":"default",
+        "menubar.selectionForeground":"#f92672",
+        "menubar.selectionBackground":"#0000",
         "menubar.selectionBorder":"default",
         "menu.foreground":"default",
         "menu.background":"default",
@@ -781,8 +787,8 @@
         "terminal.initialHintForeground":"default",
 
         /** Debug Colors*/
-        "debugToolBar.background": "#202020",
-        "debugToolBar.border":"default",
+        "debugToolBar.background": "#151515",
+        "debugToolBar.border":"#303030",
         "editor.stackFrameHighlightBackground":"default",
         "editor.focusedStackFrameHighlightBackground":"default",
         "editor.inlineValuesForeground":"default",
@@ -1014,8 +1020,6 @@
         "scm.historyItemDeletionsForeground":"default",
         "scm.historyItemStatisticsBorder":"default",
         "scm.historyItemSelectedStatisticsBorder":"default",
-        
-        //*// It's not that funny, I'm going to take a break.
     },
     "tokenColors": [
         {
