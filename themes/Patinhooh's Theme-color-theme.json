@@ -230,10 +230,9 @@
         /* 
         * Editor Groups andTabs
         */
-        //*// Reviewing stoped here
         "editorGroup.border":"#303030",
         "editorGroup.dropBackground":"#50505033",
-        "editorGroupHeader.noTabsBackground":"#202020",
+        "editorGroupHeader.noTabsBackground":"#151515",
         "editorGroupHeader.tabsBackground":"#202020",
         "editorGroupHeader.tabsBorder":"#101010",
         "editorGroupHeader.border":"#303030",
@@ -257,9 +256,9 @@
         "tab.lastPinnedBorder":"#303030",
         "tab.inactiveBackground":"#202020",
         "tab.unfocusedInactiveBackground":"#202020",
-        "tab.inactiveForeground":"#f8f8f095",
-        "tab.unfocusedActiveForeground":"#f8f8f0c1",
-        "tab.unfocusedInactiveForeground":"#f8f8f06e",
+        "tab.inactiveForeground":"#bbbbb2",
+        "tab.unfocusedActiveForeground":"#757571",
+        "tab.unfocusedInactiveForeground":"#757571",
         "tab.hoverBackground":"#202020",
         "tab.unfocusedHoverBackground":"#202020",
         "tab.hoverForeground":"#f8f8f0",
@@ -285,25 +284,26 @@
         "editorLineNumber.activeForeground":"#f92672",
         "editorLineNumber.dimmedForeground":"#606060",
     
-        "editorCursor.background":"#0000",
-        "editorCursor.foreground":"#f8f8f070",
-        "editorMultiCursor.primary.foreground":"#f8f8f070",
-        "editorMultiCursor.primary.background":"#0000",
-        "editorMultiCursor.secondary.foreground":"#f8f8f070",
-        "editorMultiCursor.secondary.background":"#0000",
+        "editorCursor.background":"#000",
+        "editorCursor.foreground":"#f8f8f0",
+        "editorMultiCursor.primary.foreground":"#f8f8f0",
+        "editorMultiCursor.primary.background":"#000",
+        "editorMultiCursor.secondary.foreground":"#f8f8f0",
+        "editorMultiCursor.secondary.background":"#000",
         // TODO didn't find it
         "editor.placeholder.foreground":"default",
   
-        "editor.selectionBackground":"#404040d8",
+        // Selection
+        "editor.selectionBackground":"#bbbbb288",
         "editor.selectionForeground":"#dead",
         // https://github.com/Microsoft/vscode/issues/36490#issuecomment-1344022506
         "editor.inactiveSelectionBackground":"#02020279",
-        "editor.selectionHighlightBackground":"#75757150",
+        "editor.selectionHighlightBackground":"#75757188",
         "editor.selectionHighlightBorder":"#0000",
-        "editor.wordHighlightBackground":"#75757150",
+        "editor.wordHighlightBackground":"#50505050",
         "editor.wordHighlightBorder":"#0000",
         // Strong => during write-access
-        "editor.wordHighlightStrongBackground":"#ff75bf50",
+        "editor.wordHighlightStrongBackground":"#f9267250",
         "editor.wordHighlightStrongBorder":"#0000",
         "editor.wordHighlightTextBackground":"#75757150",
         "editor.wordHighlightTextBorder":"#0000",
@@ -312,7 +312,7 @@
         "editor.findMatchForeground":"default",
         "editor.findMatchHighlightForeground":"#f8f8f0d8",
         "editor.findMatchHighlightBackground":"#b7134f67",
-        "editor.findRangeHighlightBackground":"#50505050",
+        "editor.findRangeHighlightBackground":"#30303050",
         "editor.findMatchBorder":"#0000",
         "editor.findMatchHighlightBorder":"#0000",
         "editor.findRangeHighlightBorder":"default",
@@ -330,7 +330,7 @@
         "editorUnicodeHighlight.border":"default",
         "editorUnicodeHighlight.background":"default", 
 
-        "editorLink.activeForeground":"default",
+        "editorLink.activeForeground":"#f92672",
 
         "editor.rangeHighlightBackground":"#50505050",
         "editor.rangeHighlightBorder":"#000000",
@@ -529,7 +529,7 @@
         "debugExceptionWidget.border":"#b00b00",
 
 
-        // TODO all under
+        // TODO
         "editorMarkerNavigation.background":"default",
         "editorMarkerNavigationError.background":"default",
         "editorMarkerNavigationWarning.background":"default",
@@ -586,63 +586,73 @@
         "mergeEditor.changeBase.word.background":"default",
         "mergeEditor.conflict.input1.background":"default",
         "mergeEditor.conflict.input2.background":"default",
-
+        // todo
 
         /*
          * Panel Colors
          */
-        "panel.background":"default",
-        "panel.border":"default",
-        "panel.dropBorder":"default",
-        "panelTitle.activeBorder":"default",
-        "panelTitle.activeForeground":"default",
-        "panelTitle.inactiveForeground":"default",
-        "panelInput.border":"default",
-        "panelSection.border":"default",
-        "panelSection.dropBackground":"default",
-        "panelSectionHeader.background":"default",
-        "panelSectionHeader.foreground":"default",
-        "panelStickyScroll.background":"default",
-        "panelStickyScroll.border":"default",
-        "panelStickyScroll.shadow":"default",
+        "panel.background":"#101010",
+        "panel.border":"#303030",
+        "panel.dropBorder":"#f8f8f0",
+        "panelTitle.activeBorder":"#f92672",
+        "panelTitle.activeForeground":"#f8f8f0",
+        "panelTitle.inactiveForeground":"#bbbbb2",
+        "panelInput.border":"#303030",
+        "panelSection.border":"#505050",
+        "panelSection.dropBackground":"#50505033",
+        "panelSectionHeader.background":"#202020",
+        "panelSectionHeader.foreground":"#f8f8f0",
+        "panelStickyScroll.background":"#101010",
+        "panelStickyScroll.border":"#0000",
+        "panelStickyScroll.shadow":"#000000d8",
+        // TODO Dont know what is this
         "panelSectionHeader.border":"default",
-        "outputView.background":"default",
-        "outputViewStickyScroll.background":"default",
+        "outputView.background":"#101010",
+        "outputViewStickyScroll.background":"#101010",
 
         /*
          * Status Bar Colors
          */
-        "statusBar.background":"#151515",
-        "statusBar.foreground":"default",
-        "statusBar.border":"default",
-        "statusBar.debuggingBackground":"#151515",
-        "statusBar.debuggingForeground":"default",
-        "statusBar.debuggingBorder":"default",
-        "statusBar.noFolderForeground":"default",
-        "statusBar.noFolderBackground":"#303030",
-        "statusBar.noFolderBorder":"default",
-        "statusBarItem.activeBackground":"default",
-        "statusBarItem.hoverForeground":"default",
-        "statusBarItem.hoverBackground":"default",
+        "statusBar.background":"#202020",
+        "statusBar.foreground":"#f8f8f0",
+        "statusBar.border":"#b7134f",
+
+        "statusBar.debuggingBackground":"#b7134f50",
+        "statusBar.debuggingForeground":"#f8f8f0",
+        "statusBar.debuggingBorder":"#b7134f",
+
+        "statusBar.noFolderForeground":"#f8f8f0",
+        "statusBar.noFolderBackground":"#202020",
+        "statusBar.noFolderBorder":"#b7134f",
+
+        "statusBarItem.activeBackground":"#404040",
+        "statusBarItem.hoverForeground":"#f8f8f0",
+        "statusBarItem.hoverBackground":"#404040",
+        // TODO couldnt test it
         "statusBarItem.prominentForeground":"default",
         "statusBarItem.prominentBackground":"default",
         "statusBarItem.prominentHoverForeground":"default",
         "statusBarItem.prominentHoverBackground":"default",
+
         "statusBarItem.remoteBackground":"#b7134f",
-        "statusBarItem.remoteForeground":"default",
-        "statusBarItem.remoteHoverBackground":"default",
-        "statusBarItem.remoteHoverForeground":"default",
+        "statusBarItem.remoteForeground":"#f8f8f0",
+        "statusBarItem.remoteHoverBackground":"#f92672",
+        "statusBarItem.remoteHoverForeground":"#f8f8f0",
+        // TODO couldnt test it
         "statusBarItem.errorBackground":"default",
         "statusBarItem.errorForeground":"default",
         "statusBarItem.errorHoverBackground":"default",
         "statusBarItem.errorHoverForeground":"default",
+
         "statusBarItem.warningBackground":"default",
         "statusBarItem.warningForeground":"default",
         "statusBarItem.warningHoverBackground":"default",
         "statusBarItem.warningHoverForeground":"default",
+
         "statusBarItem.compactHoverBackground":"default",
         "statusBarItem.focusBorder":"default",
         "statusBar.focusBorder":"default",
+
         "statusBarItem.offlineBackground":"default",
         "statusBarItem.offlineForeground":"default",
         "statusBarItem.offlineHoverForeground":"default",
@@ -659,32 +669,38 @@
         "titleBar.border":"#303030",
 
 
-        /** Menu Bar Colors*/
+        /*
+         * Menu Bar Colors
+         */
         "menubar.selectionForeground":"#f92672",
         "menubar.selectionBackground":"#0000",
         "menubar.selectionBorder":"default",
-        "menu.foreground":"default",
-        "menu.background":"default",
-        "menu.selectionForeground":"default",
-        "menu.selectionBackground":"default",
-        "menu.selectionBorder":"default",
-        "menu.separatorBackground":"default",
-        "menu.border":"default",
+        "menu.foreground":"#f8f8f0",
+        "menu.background":"#202020",
+        "menu.selectionForeground":"#f92672",
+        "menu.selectionBackground":"#0000",
+        "menu.selectionBorder":"#0000",
+        "menu.separatorBackground":"#505050",
+        "menu.border":"#0000",
 
 
-        /** Command Center Colors*/
-        "commandCenter.foreground":"default",
-        "commandCenter.activeForeground":"default",
-        "commandCenter.background":"default",
-        "commandCenter.activeBackground":"default",
-        "commandCenter.border":"default",
-        "commandCenter.inactiveForeground":"default",
-        "commandCenter.inactiveBorder":"default",
-        "commandCenter.activeBorder":"default",
+        /*
+         * Command Center Colors
+         */
+        "commandCenter.foreground":"#f8f8f0",
+        "commandCenter.activeForeground":"#f92672",
+        "commandCenter.background":"#101010",
+        "commandCenter.activeBackground":"#101010",
+        "commandCenter.border":"#303030",
+        "commandCenter.inactiveForeground":"#bbbbb2",
+        "commandCenter.inactiveBorder":"#303030",
+        "commandCenter.activeBorder":"#303030",
+        // TODO couldnt test it
         "commandCenter.debuggingBackground":"default",
 
 
         /** Notification Colors*/
+        //*// Continue
         "notificationCenter.border":"default",
         "notificationCenterHeader.foreground":"default",
         "notificationCenterHeader.background":"default",
