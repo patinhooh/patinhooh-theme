@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/), and this 
 ## [Unreleased]
 ### Added
 - Initial creation of the patinhooh-theme.
-- Defined the base color palette in the color JSON file.
+- Defined the base color palette in the color csv file.
 - Set up initial theme components and structure for future customization.
 
 ### Changed
