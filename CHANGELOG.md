@@ -6,9 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/), and this 
 
 ## [Unreleased]
 ### Added
-- Initial creation of the patinhooh-theme.
-- Defined the base color palette in the color csv file.
-- Set up initial theme components and structure for future customization.
+- Initial creation of the `patinhooh-theme extension`.
+- Defined the base color palette in the `color.csv` file.
+- Set up the initial theme components and structure for future customization.
+- Added tokens for syntax highlighting.
 
 ### Changed
 - Nothing.

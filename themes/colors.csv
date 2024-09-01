@@ -6,12 +6,14 @@ sgbus green     ;00d900   ;insert/add
 
 rose            ;f92672   ;light main
 amaranth purple ;b7134f   ;main
+                ;b4008a   ;class
 tropical indigo ;ae81ff   ;
 brandels blue   ;176fff   ;
 robin egg blue  ;1ccad8   ;
 yellow green    ;a6e22e   ;secondary
 sunglow         ;ffd035   ;secondary
-orange          ;ffa500   ;
+;e6db74;strings
+orange          ;ffa500   ;/warning
 
 night           ;101010   ;background
 night 2         ;151515   ;background above background
