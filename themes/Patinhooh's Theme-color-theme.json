@@ -699,8 +699,10 @@
         "commandCenter.debuggingBackground":"default",
 
 
-        /** Notification Colors*/
-        //*// Continue
+        /*
+         * Notification Colors
+         */
+        // TODO didn't test it
         "notificationCenter.border":"default",
         "notificationCenterHeader.foreground":"default",
         "notificationCenterHeader.background":"default",
@@ -714,29 +716,37 @@
         "notificationsInfoIcon.foreground":"default",
 
 
-        /** Banner Colors*/
+        /*
+         * Banner Colors
+         */
+        // TODO couldn't find it 
         "banner.background":"default",
         "banner.foreground":"default",
         "banner.iconForeground":"default",
 
 
-        /** Extensions Colors*/
-        "extensionButton.prominentForeground":"default",
-        "extensionButton.prominentBackground":"default",
-        "extensionButton.prominentHoverBackground":"default",
-        "extensionButton.background":"default",
-        "extensionButton.foreground":"default",
-        "extensionButton.hoverBackground":"default",
-        "extensionButton.separator":"default",
-        "extensionBadge.remoteBackground":"default",
-        "extensionBadge.remoteForeground":"default",
-        "extensionIcon.starForeground":"default",
+        /*
+         * Extensions Colors
+         */
+        "extensionButton.prominentForeground":"#f8f8f0",
+        "extensionButton.prominentBackground":"#b7134f",
+        "extensionButton.prominentHoverBackground":"#f92672",
+        "extensionButton.background":"#b7134f",
+        "extensionButton.foreground":"#f8f8f0",
+        "extensionButton.hoverBackground":"#f92672",
+        "extensionButton.separator":"#0000",
+        "extensionBadge.remoteBackground":"#176fff",
+        "extensionBadge.remoteForeground":"#f8f8f0",
+        "extensionIcon.starForeground":"#ffa500d8",
         "extensionIcon.verifiedForeground":"default",
-        "extensionIcon.preReleaseForeground":"default",
-        "extensionIcon.sponsorForeground":"default",
+        "extensionIcon.preReleaseForeground":"#176fffd8",
+        "extensionIcon.sponsorForeground":"#f92672d8",
 
 
-        /** Quick Picker Colors*/
+        /*
+         * Quick Picker Colors
+         */
+        // TODO (https://code.visualstudio.com/api/ux-guidelines/overview#quick-pick)
         "pickerGroup.border":"default",
         "pickerGroup.foreground":"default",
         "quickInput.background":"default",
@@ -747,39 +757,49 @@
         "quickInputTitle.background":"default",
 
 
-        /** Keybinding Label Colors*/
-        "keybindingLabel.background":"default",
-        "keybindingLabel.foreground":"default",
-        "keybindingLabel.border":"default",
-        "keybindingLabel.bottomBorder":"default",
+        /*
+         * Keybinding Label Colors
+         */
+        "keybindingLabel.background":"#202020",
+        "keybindingLabel.foreground":"#f8f8f0",
+        "keybindingLabel.border":"#303030",
+        "keybindingLabel.bottomBorder":"#303030",
+        
 
 
-        /** keyboard Shortcut Table Colors*/
-        "keybindingTable.headerBackground":"default",
-        "keybindingTable.rowsBackground":"default",
+        /*
+         * Keyboard Shortcut Table Colors
+         */
+        "keybindingTable.headerBackground":"#202020",
+        "keybindingTable.rowsBackground":"#151515",
 
 
 
-        /** Integrated Terminal Colors*/
+        /*
+         * Integrated Terminal Colors
+         */
         "terminal.background":"default",
         "terminal.border":"default",
         "terminal.foreground":"default",
-        "terminal.ansiBlack": "#333333",
-        "terminal.ansiBlue": "#6a7ec8",
-        "terminal.ansiBrightBlack": "#666666",
-        "terminal.ansiBrightBlue": "#819aff",
-        "terminal.ansiBrightCyan": "#66d9ef",
+        
+        "terminal.ansiBrightBlack": "#9d9d9d",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiBrightBlue": "#17bdff",
+        "terminal.ansiBlue": "#176fff",
+        "terminal.ansiBrightCyan": "#00ffff",
+        "terminal.ansiCyan": "#1ccad8",
         "terminal.ansiBrightGreen": "#a6e22e",
-        "terminal.ansiBrightMagenta": "#ae81ff",
-        "terminal.ansiBrightRed": "#f92672",
-        "terminal.ansiBrightWhite": "#f8f8f0",
-        "terminal.ansiBrightYellow": "#e2e22e",
-        "terminal.ansiCyan": "#56adbc",
-        "terminal.ansiGreen": "#86b42b",
-        "terminal.ansiMagenta": "#8c6bc8",
-        "terminal.ansiRed": "#c4265e",
-        "terminal.ansiWhite": "#e3e3dd",
-        "terminal.ansiYellow": "#b3b42b",
+        "terminal.ansiGreen": "#5dba32",
+        "terminal.ansiBrightMagenta": "#ff5896",
+        "terminal.ansiMagenta": "#dc2d6d",
+        "terminal.ansiBrightRed": "#ff0000",
+        "terminal.ansiRed": "#db0f00",
+        "terminal.ansiBrightWhite": "#ffffff",
+        "terminal.ansiWhite": "#f8f8f0",
+        "terminal.ansiBrightYellow": "#ffd035",
+        "terminal.ansiYellow": "#ffa500",
+
+        // TODO
         "terminal.selectionBackground":"default",
         "terminal.selectionForeground":"default",
         "terminal.inactiveSelectionBackground":"default",
@@ -803,6 +823,7 @@
         "terminal.initialHintForeground":"default",
 
         /** Debug Colors*/
+        //*//
         "debugToolBar.background": "#151515",
         "debugToolBar.border":"#303030",
         "editor.stackFrameHighlightBackground":"default",
