@@ -3,8 +3,24 @@
   "displayName": "Patinhooh's Theme",
   "description": "Crafted because nothing out there matched my style. It's sharp, vibrant, and exactly what I needed.",
   "version": "0.0.1",
+  "publisher": "patinhooh",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patinhooh/patinhooh-vscode-theme.git"
+  },
   "engines": {
     "vscode": "^1.92.0"
+  },
+  "keywords": [
+    "theme",
+    "patinhooh",
+    "dark",
+    "contrast"
+  ],
+  "galleryBanner": {
+    "color": "#b7134f",
+    "theme": "dark"
   },
   "categories": [
     "Themes"

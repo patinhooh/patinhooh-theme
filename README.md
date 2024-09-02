@@ -3,11 +3,9 @@ Crafted because nothing out there matched my style. It's sharp, vibrant, and exa
 
 **Enjoy the Theme!**
 
-![CS Example](cs-example.png)
+![CS Example](img/cs-example.png)
 
-![Python Example](python-example.png)
-
-![Html Example](html-example.png)
+![Python Example](img/python-example.png)
 
 <br>
 
@@ -15,11 +13,13 @@ Crafted because nothing out there matched my style. It's sharp, vibrant, and exa
 
 - **Color Palette:** 
 
-![Color Palette](color-palette.png)
+![Color Palette](img/color-palette.png)
 
 - **Monochromatic Palette:** 
 
-![Monochromatic Palette](mono-palette.png)
+![Monochromatic Palette](img/mono-palette.png)
+
+- **Full Palette:** [View Palette](palette.json)
 
 <br>
 
