@@ -2,4 +2,3 @@
 
 - Collect all colors used in one file (palette)
 - Compare new tokens with old ones
-- Redo Selections colors

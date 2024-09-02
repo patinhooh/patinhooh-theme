@@ -1,6 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         // Palettte
         //https://coolors.co/b7134f-ae81ff-1ccad8-a6e22e-ffd035
@@ -12,7 +13,7 @@
         "disabledForeground": "#f8f8f06e",
         "widget.border": "#303030",
         "widget.shadow": "#00000098",
-        "selection.background": "#202020",
+        "selection.background": "#757571",
         "descriptionForeground": "#f8f8f0",
         "errorForeground": "#b00b00",
         "icon.foreground": "#f8f8f0",
@@ -100,7 +101,7 @@
         /*
          * Progress Bar
          */
-        //TODO didnt found it
+        //TODO didn't find it
         "progressBar.background": "#404040",
         /* 
          * Lists and Trees (Explorer)
@@ -136,7 +137,7 @@
         "list.dropBetweenBackground": "#404040",
         "tree.indentGuidesStroke": "#757571",
         "tree.inactiveIndentGuidesStroke": "#303030",
-        //TODO didnt found it
+        //TODO didn't find it
         "tree.tableColumnsBorder": "default",
         "tree.tableOddRowsBackground": "default",
         /* 
@@ -161,7 +162,7 @@
         /* 
          * Profiles
          */
-        // TODO didn't find this
+        // TODO didn't find it
         "profileBadge.background": "default",
         "profileBadge.foreground": "default",
         "profiles.sashBorder": "default",
@@ -179,8 +180,8 @@
         "sideBarTitle.background": "#151515",
         "sideBarTitle.foreground": "#f8f8f0",
         // TODO didn't find it
-        "sideBarStickyScroll.background": "default", //#151515
-        "sideBarStickyScroll.border": "default", //#0000
+        "sideBarStickyScroll.background": "default",
+        "sideBarStickyScroll.border": "default",
         "sideBarStickyScroll.shadow": "default",
         /* 
         * Minimap and Minimap Gutter
@@ -190,6 +191,7 @@
         "minimap.findMatchHighlight": "default",
         "minimap.foregroundOpacity": "default",
         "minimap.infoHighlight": "default",
+        "minimap.selectionHighlight": "default",
         "minimap.selectionOccurrenceHighlight": "default",
         "minimap.warningHighlight": "default",
         "minimap.background": "default",
@@ -262,11 +264,11 @@
         // TODO didn't find it
         "editor.placeholder.foreground": "default",
         // Selection
-        "editor.selectionBackground": "#bbbbb288",
+        "editor.selectionBackground": "#505050d8",
         "editor.selectionForeground": "#dead",
         // https://github.com/Microsoft/vscode/issues/36490#issuecomment-1344022506
-        "editor.inactiveSelectionBackground": "#02020279",
-        "editor.selectionHighlightBackground": "#75757188",
+        "editor.inactiveSelectionBackground": "#50505088",
+        "editor.selectionHighlightBackground": "#50505050",
         "editor.selectionHighlightBorder": "#0000",
         "editor.wordHighlightBackground": "#50505050",
         "editor.wordHighlightBorder": "#0000",
@@ -275,11 +277,11 @@
         "editor.wordHighlightStrongBorder": "#0000",
         "editor.wordHighlightTextBackground": "#75757150",
         "editor.wordHighlightTextBorder": "#0000",
-        "editor.findMatchBackground": "#b7134f",
+        "editor.findMatchBackground": "#b7134fd8",
         "editor.findMatchForeground": "default",
         "editor.findMatchHighlightForeground": "#f8f8f0d8",
         "editor.findMatchHighlightBackground": "#b7134f67",
-        "editor.findRangeHighlightBackground": "#30303050",
+        "editor.findRangeHighlightBackground": "#50505050",
         "editor.findMatchBorder": "#0000",
         "editor.findMatchHighlightBorder": "#0000",
         "editor.findRangeHighlightBorder": "default",
@@ -287,22 +289,22 @@
         "searchEditor.findMatchBackground": "#b7134f67",
         "searchEditor.findMatchBorder": "#0000",
         "searchEditor.textInputBorder": "default",
-        "editor.hoverHighlightBackground": "#303030d8",
+        "editor.hoverHighlightBackground": "#50505050",
         "editor.lineHighlightBackground": "#202020",
         "editor.lineHighlightBorder": "#0000",
         "editorWatermark.foreground": "#757571",
-        // TODO dont know what is this
+        // TODO didn't find it
         "editorUnicodeHighlight.border": "default",
         "editorUnicodeHighlight.background": "default",
         "editorLink.activeForeground": "#f92672",
-        "editor.rangeHighlightBackground": "#50505050",
+        "editor.rangeHighlightBackground": "#50505088",
         "editor.rangeHighlightBorder": "#000000",
         "editor.symbolHighlightBackground": "default",
         "editor.symbolHighlightBorder": "default",
         "editorWhitespace.foreground": "#757571",
         "editorIndentGuide.background1": "#303030",
         "editorIndentGuide.activeBackground1": "#757571",
-        // TODO im skipping this for now
+        // TODO didn't find it
         "editorInlayHint.background": "default",
         "editorInlayHint.foreground": "default",
         "editorInlayHint.typeForeground": "default",
@@ -310,7 +312,7 @@
         "editorInlayHint.parameterForeground": "default",
         "editorInlayHint.parameterBackground": "default",
         "editorRuler.foreground": "#30303088",
-        // TODO im skipping this for now
+        // TODO didn't find it
         "editor.linkedEditingBackground": "default",
         "editorCodeLens.foreground": "#757571",
         "editorLightBulb.foreground": "#ffa500",
@@ -338,11 +340,12 @@
         "editorBracketPairGuide.background4": "default",
         "editorBracketPairGuide.background5": "default",
         "editorBracketPairGuide.background6": "default",
-        "editor.foldBackground": "#30303050",
+        "editor.foldBackground": "#20202088",
         "editor.foldPlaceholderForeground": "#f8f8f0",
-        // Overview // TODO I DONT USE IT SO I WILL DO IT LATER
-        "editorOverviewRuler.background": "default",
-        "editorOverviewRuler.border": "default",
+        // Overview
+        //*//
+        "editorOverviewRuler.background": "#0000",
+        "editorOverviewRuler.border": "#30303088",
         "editorOverviewRuler.findMatchForeground": "default",
         "editorOverviewRuler.rangeHighlightForeground": "default",
         "editorOverviewRuler.selectionHighlightForeground": "default",
@@ -368,7 +371,7 @@
         "editorInfo.foreground": "#00a7c9",
         "editorInfo.border": "default",
         "editorInfo.background": "#00a7c930",
-        // TODO Dont now here i can find this
+        // TODO didn't find it
         "editorHint.foreground": "default",
         "editorHint.border": "default",
         "problemsErrorIcon.foreground": "#b00b00",
@@ -381,12 +384,12 @@
         "editorGutter.modifiedBackground": "#00a7c9",
         "editorGutter.addedBackground": "#00d900",
         "editorGutter.deletedBackground": "#de1000",
-        // TODO didnt found it
+        // TODO didn't find it
         "editorGutter.commentRangeForeground": "default",
         "editorGutter.commentGlyphForeground": "default",
         "editorGutter.commentUnresolvedGlyphForeground": "default",
         "editorGutter.foldingControlForeground": "#757571",
-        // TODO Probably related to the Gutter
+        // TODO didn't find it
         "editorCommentsWidget.resolvedBorder": "default",
         "editorCommentsWidget.unresolvedBorder": "default",
         "editorCommentsWidget.rangeBackground": "default",
@@ -405,7 +408,7 @@
         "diffEditor.removedLineBackground": "#de100050",
         "diffEditorGutter.insertedLineBackground": "default",
         "diffEditorGutter.removedLineBackground": "default",
-        // TODO the rest of diff
+        // TODO didn't find it
         "diffEditorOverview.insertedForeground": "default",
         "diffEditorOverview.removedForeground": "default",
         "diffEditor.unchangedRegionBackground": "default",
@@ -453,12 +456,12 @@
         "editorSuggestWidget.selectedBackground": "#303030",
         "editorSuggestWidget.selectedForeground": "#f8f8f0",
         "editorSuggestWidget.selectedIconForeground": "#f8f8f0",
-        // TODO didnt find it
+        // TODO didn't find it
         "editorSuggestWidgetStatus.foreground": "default",
         "editorHoverWidget.foreground": "#f8f8f0",
         "editorHoverWidget.background": "#202020",
         "editorHoverWidget.border": "#303030",
-        // TODO didnt find it
+        // TODO didn't find it
         "editorHoverWidget.highlightForeground": "default",
         "editorHoverWidget.statusBarBackground": "default",
         "editorGhostText.border": "default",
@@ -470,7 +473,6 @@
         "editorStickyScrollHover.background": "#50505050",
         "debugExceptionWidget.background": "#b00b0050",
         "debugExceptionWidget.border": "#b00b00",
-        // TODO
         "editorMarkerNavigation.background": "default",
         "editorMarkerNavigationError.background": "#b00b00",
         "editorMarkerNavigationWarning.background": "#ffa500",
@@ -489,8 +491,8 @@
         "peekViewResult.background": "#202020",
         "peekViewResult.fileForeground": "#f8f8f0",
         "peekViewResult.lineForeground": "#757571",
-        "peekViewResult.matchHighlightBackground": "#b7134f67",
-        "peekViewResult.selectionBackground": "default",
+        "peekViewResult.matchHighlightBackground": "#50505050",
+        "peekViewResult.selectionBackground": "#404040",
         "peekViewResult.selectionForeground": "#f8f8f0",
         "peekViewTitle.background": "#151515",
         "peekViewTitleDescription.foreground": "#f8f8f0",
@@ -506,6 +508,7 @@
         "merge.border": "default",
         "merge.commonContentBackground": "#303030d8",
         "merge.commonHeaderBackground": "#30303050",
+        // TODO didn't find it
         "editorOverviewRuler.currentContentForeground": "default",
         "editorOverviewRuler.incomingContentForeground": "default",
         "editorOverviewRuler.commonContentForeground": "default",
@@ -524,7 +527,6 @@
         "mergeEditor.changeBase.word.background": "default",
         "mergeEditor.conflict.input1.background": "default",
         "mergeEditor.conflict.input2.background": "default",
-        // todo
         /*
          * Panel Colors
          */
@@ -542,7 +544,7 @@
         "panelStickyScroll.background": "#101010",
         "panelStickyScroll.border": "#0000",
         "panelStickyScroll.shadow": "#000000d8",
-        // TODO Dont know what is this
+        // TODO didn't find it
         "panelSectionHeader.border": "default",
         "outputView.background": "#101010",
         "outputViewStickyScroll.background": "#101010",
@@ -561,7 +563,7 @@
         "statusBarItem.activeBackground": "#404040",
         "statusBarItem.hoverForeground": "#f8f8f0",
         "statusBarItem.hoverBackground": "#404040",
-        // TODO couldnt test it
+        // TODO didn't find it
         "statusBarItem.prominentForeground": "default",
         "statusBarItem.prominentBackground": "default",
         "statusBarItem.prominentHoverForeground": "default",
@@ -570,7 +572,7 @@
         "statusBarItem.remoteForeground": "#f8f8f0",
         "statusBarItem.remoteHoverBackground": "#f92672",
         "statusBarItem.remoteHoverForeground": "#f8f8f0",
-        // TODO couldnt test it
+        // TODO didn't find it
         "statusBarItem.errorBackground": "default",
         "statusBarItem.errorForeground": "default",
         "statusBarItem.errorHoverBackground": "default",
@@ -618,7 +620,7 @@
         "commandCenter.inactiveForeground": "#bbbbb2",
         "commandCenter.inactiveBorder": "#303030",
         "commandCenter.activeBorder": "#303030",
-        // TODO couldnt test it
+        // TODO didn't find it
         "commandCenter.debuggingBackground": "default",
         /*
          * Notification Colors
@@ -637,7 +639,7 @@
         /*
          * Banner Colors
          */
-        // TODO couldn't find it, linux?
+        // TODO didn't find it, linux?
         "banner.background": "default",
         "banner.foreground": "default",
         "banner.iconForeground": "default",
@@ -660,7 +662,8 @@
         /*
          * Quick Picker Colors
          */
-        // TODO (https://code.visualstudio.com/api/ux-guidelines/overview#quick-pick)
+        // TODO didn't find it
+        // (https://code.visualstudio.com/api/ux-guidelines/overview#quick-pick)
         "pickerGroup.border": "#505050",
         "pickerGroup.foreground": "#f92672",
         "quickInput.background": "default",
@@ -684,8 +687,8 @@
         /*
          * Integrated Terminal Colors
          */
-        "terminal.background": "default",
-        "terminal.border": "default",
+        "terminal.background": "#101010",
+        "terminal.border": "#303030",
         "terminal.foreground": "default",
         "terminal.ansiWhite":"#f8f8f0",
         "terminal.ansiBrightWhite":"#FFFFFF",
@@ -703,9 +706,8 @@
         "terminal.ansiBrightRed":"#f92672",
         "terminal.ansiYellow":"#ffa500",
         "terminal.ansiBrightYellow":"#ffd035",
-
         // TODO
-        "terminal.selectionBackground": "default",
+        "terminal.selectionBackground": "#50505088",
         "terminal.selectionForeground": "default",
         "terminal.inactiveSelectionBackground": "default",
         "terminal.findMatchBackground": "default",
@@ -1363,7 +1365,6 @@
 			}
 		}
 	],
-	"semanticHighlighting": true
 }
 
 // * //
