@@ -38,5 +38,3 @@ The creation of my theme drew significant inspiration from the following:
 - [VS Code Get Started Themes](https://code.visualstudio.com/docs/getstarted/themes)
 - [VS Code Theme Color](https://code.visualstudio.com/api/references/theme-color)
 - [VS Code UX Guidelines](https://code.visualstudio.com/api/ux-guidelines/overview)
-
-
